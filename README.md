@@ -1,4 +1,4 @@
-# FreeSurfer
+# FreeSurfer_Group-level_Analysis
 
 The scripts in this repository are to run Group level analysis on structural MRI data using FreeSurfer. The repository contains the following three scripts: *runMrisPreproc.sh*, *runGLMs.sh*, and *runClustSims.sh*
 
