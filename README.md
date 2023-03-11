@@ -25,7 +25,7 @@ The scripts in this repository are to run Group level analysis on structural MRI
      - --glmdir: An output label for the directory containing the results
   - The *runGLMs.sh* script allows the `mri_glmfit` command to be executed flexibly across studies depending on the needs of the user
  
-## STEP 3: Cluster Correction with `mri_glmfit-sim 
+## STEP 3: Cluster Correction with `mri_glmfit-sim` 
 - *runClustSims.sh*
   - After running the general linear model with the `mri_glmfit` command and creating group-level contrast maps, it is necessary to correct for the number of tests that have been run.
   - Cluster correction is conducted using the `mri_glmfit-sim` command
