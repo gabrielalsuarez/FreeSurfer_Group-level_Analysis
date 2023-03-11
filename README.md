@@ -1,11 +1,13 @@
-# FreeSurfer_Group-level_Analysis
+# FreeSurfer Group-level Analysis
 
-The scripts in this repository are to run Group level analysis on structural MRI data using FreeSurfer. The repository contains the following three scripts: *runMrisPreproc.sh*, *runGLMs.sh*, and *runClustSims.sh*
+The scripts in this repository are to run Group level analysis on structural MRI data using FreeSurfer (<<https://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/GroupAnalysis>>). The repository contains the following three scripts: *runMrisPreproc.sh*, *runGLMs.sh*, and *runClustSims.sh*
+
+These scripts were created by graduate student, Gabriela Suarez, and former MiND lab data manager, Jared Burton.
 
 ## STEP 1: Creating a group file with `mris_preproc` 
  - *runMrisPreproc.sh* 
-    - In order to run a group analysis, we first need to combine all of our individual structural images into a single dataset. 
-    - The data are also resampled to the fsaverage template, which is in MNI space.
+    - Combine all of individual structural images into a single dataset before running group analysis. 
+    - The data are resampled to the fsaverage template, which is in MNI space.
     - Uses a single command `mris_preproc` - requires the following arguments
       - --fsgd: An FSGD file
       - --target: A template to resample to (fsaverage) 
